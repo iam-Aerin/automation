@@ -29,8 +29,8 @@ for img in imgs:
     if src and src.startswith('http'):
         img_list.append(src)
 
-# 최대 15개로 제한
-img_list = img_list[:8]
+# 최대 5개로 제한
+img_list = img_list[:5]
 print(f'{len(img_list)}개의 이미지 링크 수집됨')
 
 # 이미지 다운로드
